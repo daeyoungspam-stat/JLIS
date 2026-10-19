@@ -1,0 +1,10 @@
+^\.github$
+^\.gitignore$
+^\.Rbuildignore$
+^README\.md$
+^scripts$
+^slurm$
+^docs$
+^results$
+^.*\.Rcheck$
+^.*\.tar\.gz$

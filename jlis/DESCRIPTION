@@ -1,0 +1,15 @@
+Package: jlis
+Type: Package
+Title: Joint Low-Rank and Individual Sparse Matrix Regression
+Version: 0.1.0
+Authors@R: person("JLIS software project", role = c("aut", "cre"),
+    email = "package@example.invalid")
+Description: Fits multigroup Gaussian and binomial matrix regression models
+    with a shared low-rank component and group-specific sparse components.
+    Provides entrywise-constrained estimation, simulation experiments,
+    archived numerical results, and coefficient-error plots.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, utils, parallel, pracma
+Suggests: ggplot2, glmnet, foreach, doParallel, iterators, MASS
