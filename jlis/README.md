@@ -45,7 +45,7 @@ Tuning minimizes
 
 $$\widehat\theta\in\mathrm*{arg\,min}_{\theta\in\Theta}
 \sum_{k=1}^{5}\sum_{g=1}^{G}
-\mathcal E\!\left(Y_{g,k},\widehat\eta_{g,k}^{(-k)}(\theta)\right),
+\mathcal E\left(Y_{g,k},\widehat\eta_{g,k}^{(-k)}(\theta)\right),
 \qquad\theta=(\lambda_1,\lambda_2,\lambda_3,\alpha).$$
 
 The validation error $\mathcal E$ is squared-error sum for Gaussian responses
