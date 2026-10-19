@@ -43,7 +43,7 @@ and $\mathcal L_g=n_g^{-1}\sum_i\{\log(1+e^{\eta_{ig}})-y_{ig}\eta_{ig}\}$
 for binary responses. Setting `alpha = Inf` gives the unconstrained objective.
 Tuning minimizes
 
-$$\widehat\theta\in\operatorname*{arg\,min}_{\theta\in\Theta}
+$$\widehat\theta\in\mathrm*{arg\,min}_{\theta\in\Theta}
 \sum_{k=1}^{5}\sum_{g=1}^{G}
 \mathcal E\!\left(Y_{g,k},\widehat\eta_{g,k}^{(-k)}(\theta)\right),
 \qquad\theta=(\lambda_1,\lambda_2,\lambda_3,\alpha).$$
